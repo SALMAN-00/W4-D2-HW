@@ -38,11 +38,10 @@ ___________________Q4___________________
 `);
 
 let values = 8;
-
 for (i = 1; i <= values; i++) {
   let n = "";
   for (j = 1; j <= i; j++) {
     n += j + " ";
   }
+  console.log(n);
 }
-console.log(n);
